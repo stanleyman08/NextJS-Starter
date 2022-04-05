@@ -29,4 +29,6 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 - Typescript (4.5.4)
 - Linter with ESLint (8.12.0 - Default NextJS, NextJS Core Web Vitals, Tailwind CSS, Airbnb configuration)
 - Code formatter with Prettier (2.5.1)
-- 
+- Absolute Imports
+- Husky for Git Hooks
+- Lint-staged for running linters on Git staged files
