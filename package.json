@@ -6,8 +6,7 @@
     "start": "next start",
     "lint": "next lint",
     "build-types": "tsc --noEmit --pretty",
-    "prepare": "husky install",
-    "pre-commit": "next lint --fix && git add -A ."
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "latest",
