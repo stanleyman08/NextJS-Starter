@@ -8,27 +8,42 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
+## Getting Started
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+**1. Install**
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-# or
-pnpm create next-app -- --example with-tailwindcss with-tailwindcss-app
+Install with npm
+
 ```
+npm install
+```
+
+**2.Start**
+
+Once the installation is done, you can now start your app by running.
+
+```
+npm run dev
+```
+
+**3.Build**
+
+```
+npm run build
+```
+
+Your app is ready to be deployed.
 
 Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
 
-
 ## Features
-- Next.js (@latest-12.1.4)
-- Integrate with Tailwind CSS (3.0.7)
-- Typescript (4.5.4)
-- Linter with ESLint (8.12.0 - Default NextJS, NextJS Core Web Vitals, Tailwind CSS, Airbnb configuration)
-- Code formatter with Prettier (2.5.1)
+
+- Next.js (v12)
+- React (v18)
+- Integrate with Tailwind CSS (v3)
+- Typescript (v4)
+- Linter with ESLint (Default NextJS, NextJS Core Web Vitals, Tailwind CSS, Airbnb typescript configuration)
+- Code formatter with Prettier (v2)
 - Absolute Imports
 - Husky for Git Hooks
 - Lint-staged for running linters on Git staged files
